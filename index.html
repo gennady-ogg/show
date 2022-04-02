@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="format-detection" content="telephone=0">
+   <meta name="robots" content="noindex, nofollow">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" type="image/x-icon" href="return.png">
+   <link rel="stylesheet" href="css/style.min.css">
+   <meta name="theme-color" content="#000000">
+   <title>Showcase</title>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+
+   <script src="locomotive-scroll.min.js"></script>
+</head>
+
+<body class="home">
+   <div class="wrapper">
+
+      <!-- menu -->
+      <nav class="menu">
+         <div class="menu__logo">
+            <a href="index.html">OGG-Verst</a>
+         </div>
+         <div class="menu__items">
+            <div class="menu__items-link active"><a href="project.html">Projects</a></div>
+            <div class="menu__items-link"><a href="about.html">About</a></div>
+         </div>
+      </nav>
+
+      <!-- horizontal scroll items -->
+      <div class="container">
+         <div class="container__item container__item-header">
+            <h2>OGG-Verst, <br> Frontend Developer</h2>
+         </div>
+
+         <div class="container__item container__item-1">
+            <h2 class="container__item-title">
+               <a href="project.html">stellar</a>
+            </h2>
+         </div>
+         <div class="container__item container__item-2">
+            <h2 class="container__item-title">
+               <a href="project.html">Unlocked</a>
+            </h2>
+         </div>
+         <div class="container__item container__item-3">
+            <h2 class="container__item-title">
+               <a href="project.html">Offbeat</a>
+            </h2>
+         </div>
+         <div class="container__item container__item-4">
+            <h2 class="container__item-title">
+               <a href="project.html">art</a>
+            </h2>
+         </div>
+         <div class="container__item container__item-5">
+            <h2 class="container__item-title">
+               <a href="project.html">fresh</a>
+            </h2>
+         </div>
+         <div class="container__item container__item-6">
+            <h2 class="container__item-title">
+               <a href="project.html">trustworthy</a>
+            </h2>
+         </div>
+         <div class="container__item container__item-7">
+            <h2 class="container__item-title">
+               <a href="project.html">perspective</a>
+            </h2>
+         </div>
+         <div class="container__item container__item-8">
+            <h2 class="container__item-title">
+               <a href="project.html">actual</a>
+            </h2>
+         </div>
+         <div class="container__item container__item-9">
+            <h2 class="container__item-title">
+               <a href="project.html">excellence</a>
+            </h2>
+         </div>
+         <div class="container__item container__item-10">
+            <h2 class="container__item-title">
+               <a href="project.html">Winner</a>
+            </h2>
+         </div>
+         <div class="container__item container__item-11">
+            <h2 class="container__item-title">
+               <a href="project.html">interface</a>
+            </h2>
+         </div>
+         <div class="container__item container__item-12">
+            <h2 class="container__item-title">
+               <a href="project.html">frontend</a>
+            </h2>
+         </div>
+      </div>
+
+   </div>
+
+   <!-- script -->
+   <script src="horizontal-scroll.js"></script>
+   <script>
+      var blocks = document.getElementsByClassName("container__item");
+      var container = document.getElementsByClassName("container");
+      var hs = new HorizontalScroll.default({
+         blocks: blocks,
+         container: container,
+         isAnimated: true,
+         springEffect: 0.8,
+      });
+
+   </script>
+</body>
+
+</html>
